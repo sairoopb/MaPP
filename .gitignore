@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+bin
+Goldman Sachs
+inlcude
+lib
+lib64
+share
+ta-lib
+pyvenv.cfg
