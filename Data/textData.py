@@ -1,7 +1,6 @@
 import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
-from pandas_datareader import data as pdr
 from requests.exceptions import InvalidURL,TooManyRedirects,MissingSchema
 from requests import ReadTimeout, ConnectTimeout, HTTPError, Timeout, ConnectionError
 
