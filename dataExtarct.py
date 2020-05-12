@@ -1,8 +1,8 @@
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-from textData import TextRetriever
-from stockData import StockRetriever
+from Data.textData import TextRetriever
+from Data.stockData import StockRetriever
 
 import datetime as datetime
 import csv as csv
@@ -10,8 +10,8 @@ import time
 
 global_start = time.time()
 
-START = '2016-01-09'
-END = '2017-05-23'
+START = '2017-01-09'
+END = '2018-05-23'
 PERIOD = 50
 PREDICTION = 10
 COUNT = 35 + PERIOD
@@ -75,7 +75,7 @@ for i in range(PERIOD, len(dates) - PREDICTION):
     temp.insert(0, dates[i].date())
     table.append(temp)    
 
-filename = 'Data_GS_2016_2017.csv'
+filename = 'Data_GS_2017_2018.csv'
 
 with open(filename, 'w') as csvfile: 
     csvwriter = csv.writer(csvfile)

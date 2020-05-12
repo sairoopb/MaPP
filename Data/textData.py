@@ -93,7 +93,7 @@ class TextRetriever():
 
                 soup_text = BeautifulSoup(str(val[0]), 'html.parser')
 
-                text = soup_text.getText()
+                text = soup_text.getText(strip=True)
 
                 return text
 

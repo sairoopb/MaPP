@@ -1,5 +1,5 @@
 from pandas_datareader import data as pdr
-from techIndicators import TechIndicators
+from Data.techIndicators import TechIndicators
 import pandas as pd
 
 class StockRetriever():
