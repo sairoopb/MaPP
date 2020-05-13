@@ -1,8 +1,8 @@
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-from Data.textData import TextRetriever
-from Data.stockData import StockRetriever
+from jsonData.textData import TextRetriever
+from jsonData.stockData import StockRetriever
 
 import datetime as datetime
 import csv as csv
