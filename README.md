@@ -10,5 +10,6 @@
 7. PyTorch
 8. Torchtext
 9. Spacy (Also install the english tokenizer model)
+10. Sklearn if you did not split your dataset into test train and validation.
 
-### Code is only written for Goldman Sachs and will be later extended for other companies
+#### Code is only written for Goldman Sachs Data and will be later extended for other companies
