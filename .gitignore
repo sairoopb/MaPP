@@ -1,3 +1,4 @@
+.gitignore
 .vscode
 bin
 inlcude
@@ -6,8 +7,9 @@ lib64
 share
 ta-lib
 pyvenv.cfg
-Data/__pycache__
+main/jsonData/__pycache__
 Data.csv
-test.csv
-train.csv
-val.csv
+JSON
+main/test.json
+main/train.json
+main/val.json
