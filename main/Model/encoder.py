@@ -58,7 +58,7 @@ class StockEncoder(nn.Module):
         _, hidden = self.rnn(src)
         out = hidden[-1, :, :]
         
-        # Out dimension is [Batch SIze, Hiddn Dim]
+        # Out dimension is [Batch SIze, Hidden Dim]
         return out
 
         

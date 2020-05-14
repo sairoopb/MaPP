@@ -1,5 +1,7 @@
 # **Stock Market Predictor using Deep learning**
 
+#### Note : Code is tested for Linux based Operating Systems
+
 ## **Requirements**
 1. Python 3.6+
 2. Pandas Datareader
