@@ -87,28 +87,3 @@ global_end = time.time()
 total_execution = global_end - global_start
 
 print(f"Total time taken for execution == [{total_execution:5.2f}] || Total number of datapoints == [{datapoints}] \n")
-
-# =========================================================================================================================
-
-    # from companies import selected as compList
-    # stockVal = {}
-    # input_final = {}
-    # output_final = {}
-    # for company in compList:
-    #   stockVal[company] = []
-    #   input_final[company] = []
-    #   output_final[company] = []
-    #       stockVal[company].append(val.loc[dateList].values.round(3).tolist())
-    #       input_final[company].append(val.loc[dates[i], ['Open', 'Low', 'High', 'Close']].values.round(3).tolist())
-    #       output_final[company].append(val.loc[datelist_pred, ['Open', 'Low', 'High', 'Close']].values.round(3).tolist())
-    #   temp = [stockVal[key][j] for key in stockVal.keys()]
-    #   temp.append([input_final[key][j] for key in input_final.keys()])
-    #   temp.append([output_final[key][j] for key in output_final.keys()])
-
-
-
-    # temp = stock.get_stock("MSFT")
-    # arr = temp.loc[[dates[0],dates[1],dates[2],dates[3],dates[4]]].values.round(3).tolist()
-    # , 'Nike', "McDonald's", 'Pfizer', 'Disney', 'Intel', 'Walmart', 'J&J', 'JP Morgan', 'Apple']
-
-# =========================================================================================================================

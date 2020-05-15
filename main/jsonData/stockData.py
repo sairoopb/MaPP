@@ -20,11 +20,3 @@ class StockRetriever():
         indicators = self.tech_indicator.getData(data)
         data = pd.concat([data, indicators], axis=1)
         return data
-
-#==============================================================================
-
-    # import yfinance as yf
-    # yf.pdr_override()
-    # stock_data.reset_index().to_json(None, orient='index', date_format='iso')
-
-#==============================================================================

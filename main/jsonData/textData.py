@@ -113,17 +113,3 @@ class TextRetriever():
             text_data = 'NULL'
 
         return text_data
-
-
-#=============================================================================================
-    
-    # 'https://www.valueline.com/Markets/Daily_Updates/Stock_Market_Today__April_9,_2020.aspx'
-    # print(soup.prettify())
-    # val[0] contains the information / stock review
-    # date = {'Day' : day , 'Month' : month , 'Year' : year}
-    # day = int(input("Enter the day == ")) 
-    # month = int(input("Enter the month == "))
-    # year = int(input("Enter the year == "))
-    # val = datetime(year, month, day)
-
-#=============================================================================================
