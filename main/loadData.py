@@ -32,7 +32,7 @@ class Dataloader():
 
     def get_iterator(self, Batch_Size=3):
         train, val, test, length = self.get()
-        train_iterator, val_iterator, test_iterator = BucketIterator.splits((train, val, test), sort=False, batch_size=Batch_Size, device=self.device, shuffle=True)
+        train_iterator, val_iterator, test_iterator = BucketIterator.splits((train, val, test), sort=False, batch_sizes=(Batch_Size, Batch_Size, 1), device=self.device, shuffle=True)
         return train_iterator, val_iterator, test_iterator, length
 
 # ==========================================================================
