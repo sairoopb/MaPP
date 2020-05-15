@@ -14,5 +14,6 @@ main/train.json
 main/val.json
 main/models/__pycache__
 main/traintest/__pycache__
+main/visualization/__pycache__
 main/__pycache__
 commented
