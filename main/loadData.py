@@ -14,9 +14,9 @@ class Dataloader():
 
     def get(self):
         REVIEW = Field(tokenize=self.en_tokenizer, init_token='<sos>', eos_token='<eos>', stop_words=STOP_WORDS, use_vocab=True)
-        INPUT_H = Field(sequential=False,use_vocab=False,pad_token=None,unk_token=None)
-        INPUT_F = Field(sequential=False,use_vocab=False,pad_token=None,unk_token=None)
-        OUTPUT = Field(sequential=False,use_vocab=False,pad_token=None,unk_token=None)
+        INPUT_H = Field(sequential=False, use_vocab=False, pad_token=None, unk_token=None,dtype=torch.float32)
+        INPUT_F = Field(sequential=False, use_vocab=False, pad_token=None, unk_token=None,dtype=torch.float32)
+        OUTPUT = Field(sequential=False, use_vocab=False, pad_token=None, unk_token=None,dtype=torch.float32)
         fields = {'Review' : ('r', REVIEW), 'Input Hidden' : ('h',INPUT_H), 'Input Final' : ('f', INPUT_F), 'Output' : ('o', OUTPUT)}
         trainds, valds, testds = TabularDataset.splits(
             path='./',
