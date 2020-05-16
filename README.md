@@ -13,11 +13,12 @@
 10. Sklearn if you did not split your dataset into test train and validation.
 
 * The script was trained using a NVIDIA P-100 GPU and the results are shown below:
-
 * Training:
+
 ![Loss Stats](/Results/result.png)
 
 * And example for a test case:
+
 ![Stock Prices](/Results/example.png)
 
 * Pretrained weights have also been included in the repo in the pretrainedWeights folder.
